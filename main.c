@@ -19,7 +19,7 @@ if(printfInit(&huart2) != 0)
     wile(1);
 }
 // Grab the starting time
-uint32_t t_start = HAL_GetTick(); // incriment every 1 ms
+uint32_t t_start = HAL_GetTick(); // increment every 1 ms
 
 // The code to be executed
 for(uint32_t i = 0; i < 100000; i++){
